@@ -1,0 +1,19 @@
+[32mINFO    [0m conftest:conftest.py:57 Creating browser: chrome (headless=False)
+[32mINFO    [0m WDM:logger.py:11 xdist worker is: gw3
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 There is no [win64] chromedriver "148.0.7778.178" for browser google-chrome "148.0.7778" in cache
+[32mINFO    [0m WDM:logger.py:11 There is no [win64] chromedriver "148.0.7778.178" for browser google-chrome "148.0.7778" in cache
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 WebDriver version 148.0.7778.178 selected
+[32mINFO    [0m WDM:logger.py:11 Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+[32mINFO    [0m WDM:logger.py:11 About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+[32mINFO    [0m WDM:logger.py:11 Driver downloading response is 200
+[32mINFO    [0m WDM:logger.py:11 Driver has been saved in cache [C:\Users\PUJA KADAM\.wdm\gw3\drivers\chromedriver\win64\148.0.7778.178]
+[32mINFO    [0m conftest:conftest.py:123 Browser created: chrome
+[32mINFO    [0m Utilities.Config_reader:Config_reader.py:36 Config loaded for environment: qa
+[32mINFO    [0m conftest:conftest.py:150 Navigated to: https://demoblaze.com/
+[32mINFO    [0m test_e2e:test_e2e.py:104 TC016: Broken Link Validation Test
+[32mINFO    [0m test_e2e:test_e2e.py:160 Total links checked: 4, broken: 0
+[32mINFO    [0m test_e2e:test_e2e.py:168 TC016: PASSED - No broken links found
+[32mINFO    [0m conftest:conftest.py:154 Closing browser

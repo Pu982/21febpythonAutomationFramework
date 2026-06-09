@@ -1,0 +1,14 @@
+2026-05-22 15:02:13 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-22 15:02:13 [INFO] WDM - ====== WebDriver manager ======
+2026-05-22 15:02:14 [INFO] WDM - Driver [C:\Users\PUJA KADAM\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 15:02:15 [INFO] conftest - Browser created: chrome
+2026-05-22 15:02:15 [INFO] Utilities.Config_reader - Config loaded for environment: qa
+2026-05-22 15:02:16 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-22 15:02:16 [INFO] test_e2e - TC014: Verify Navigation Menu Test
+2026-05-22 15:02:16 [INFO] Pages.Base_Page - Element is visible: ('xpath', "//a[contains(@class,'nav-link') and text()='Home ']")
+2026-05-22 15:02:16 [INFO] Pages.Base_Page - Element is visible: ('xpath', "//a[text()='Contact']")
+2026-05-22 15:02:16 [INFO] Pages.Base_Page - Element is visible: ('id', 'cartur')
+2026-05-22 15:02:16 [INFO] Pages.Home_Page - Navigation - Home: True, Contact: True, Cart: True
+2026-05-22 15:02:16 [INFO] Pages.Base_Page - Element is visible: ('id', 'carouselExampleIndicators')
+2026-05-22 15:02:16 [INFO] test_e2e - TC014: PASSED - Navigation menu verified
+2026-05-22 15:02:16 [INFO] conftest - Closing browser

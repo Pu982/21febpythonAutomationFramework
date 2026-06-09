@@ -1,0 +1,48 @@
+2026-05-22 16:06:16 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-22 16:06:16 [INFO] WDM - ====== WebDriver manager ======
+2026-05-22 16:06:17 [INFO] WDM - Driver [C:\Users\PUJA KADAM\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 16:06:18 [INFO] conftest - Browser created: chrome
+2026-05-22 16:06:18 [INFO] Utilities.Config_reader - Config loaded for environment: qa
+2026-05-22 16:06:26 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-22 16:06:26 [INFO] test_e2e - TC020: Full E2E Purchase Flow
+2026-05-22 16:06:26 [INFO] Pages.Login_Page - Performing login with user: pavanol
+2026-05-22 16:06:26 [INFO] Pages.Login_Page - Opening login modal
+2026-05-22 16:06:26 [INFO] Pages.Base_Page - Clicking element: ('id', 'login2')
+2026-05-22 16:06:26 [INFO] Pages.Base_Page - Clicked element: ('id', 'login2')
+2026-05-22 16:06:26 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 16:06:27 [INFO] Pages.Login_Page - Entering username: pavanol
+2026-05-22 16:06:27 [INFO] Pages.Base_Page - Entering text 'pavanol' into: ('id', 'loginusername')
+2026-05-22 16:06:27 [INFO] Pages.Base_Page - Text entered successfully: ('id', 'loginusername')
+2026-05-22 16:06:27 [INFO] Pages.Login_Page - Entering password
+2026-05-22 16:06:27 [INFO] Pages.Base_Page - Entering text 'test@123' into: ('id', 'loginpassword')
+2026-05-22 16:06:27 [INFO] Pages.Base_Page - Text entered successfully: ('id', 'loginpassword')
+2026-05-22 16:06:27 [INFO] Pages.Login_Page - Clicking login button
+2026-05-22 16:06:27 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-22 16:06:28 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-22 16:06:28 [WARNING] Pages.Base_Page - Hard wait: 2 seconds (avoid in production code)
+2026-05-22 16:06:30 [INFO] Pages.Login_Page - Checking if user is logged in
+2026-05-22 16:06:34 [INFO] Pages.Base_Page - Element is visible: ('id', 'nameofuser')
+2026-05-22 16:06:34 [INFO] test_e2e - Step 1: Login - DONE
+2026-05-22 16:06:34 [INFO] Pages.Home_Page - Selecting Phones category
+2026-05-22 16:06:34 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//a[text()='Phones']")
+2026-05-22 16:06:34 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//a[text()='Phones']")
+2026-05-22 16:06:34 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 16:06:35 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 16:06:36 [INFO] test_e2e - Step 2: Browse products - DONE
+2026-05-22 16:06:36 [INFO] Pages.Home_Page - Selecting product: Samsung galaxy s6
+2026-05-22 16:06:36 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-22 16:06:37 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-22 16:06:37 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 16:06:38 [INFO] test_e2e - Step 3: Selected product 'Samsung galaxy s6' - DONE
+2026-05-22 16:06:38 [INFO] Pages.Product_Page - Adding product to cart
+2026-05-22 16:06:38 [INFO] Pages.Base_Page - Waiting for element: ('css selector', '.name')
+2026-05-22 16:06:48 [ERROR] Pages.Base_Page - Element not found within 10s: ('css selector', '.name')
+2026-05-22 16:06:48 [WARNING] Pages.Product_Page - Product title not detected before clicking Add to cart
+2026-05-22 16:06:48 [INFO] Pages.Base_Page - Waiting for element clickable: ('xpath', "//a[text()='Add to cart']")
+2026-05-22 16:06:58 [WARNING] Pages.Product_Page - Clickable wait failed; attempting visibility wait then JS click
+2026-05-22 16:06:58 [INFO] Pages.Base_Page - Waiting for element: ('xpath', "//a[text()='Add to cart']")
+2026-05-22 16:07:08 [ERROR] Pages.Base_Page - Element not found within 8s: ('xpath', "//a[text()='Add to cart']")
+2026-05-22 16:07:08 [ERROR] Pages.Product_Page - Failed to click 'Add to cart' using all strategies
+2026-05-22 16:07:09 [INFO] Utilities.screenshot_utils - Screenshot saved: D:\pythonAutomation\pythonAutomationtest\21feb_python_Framework\screenshots\test_full_e2e_purchase_20260522_160708.png
+2026-05-22 16:07:09 [ERROR] conftest - TEST FAILED: test_full_e2e_purchase - Screenshot: D:\pythonAutomation\pythonAutomationtest\21feb_python_Framework\screenshots\test_full_e2e_purchase_20260522_160708.png
+2026-05-22 16:07:09 [INFO] conftest - Closing browser

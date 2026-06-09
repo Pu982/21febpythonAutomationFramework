@@ -1,0 +1,23 @@
+2026-05-22 22:05:33 [INFO] conftest - Creating browser: firefox (headless=False)
+2026-05-22 22:05:33 [INFO] WDM - ====== WebDriver manager ======
+2026-05-22 22:05:34 [INFO] WDM - Driver [C:\Users\PUJA KADAM\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache by browser version
+2026-05-22 22:05:40 [INFO] conftest - Browser created: firefox
+2026-05-22 22:05:40 [INFO] Utilities.Config_reader - Config loaded for environment: staging
+2026-05-22 22:05:43 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-22 22:05:43 [INFO] test_product - TC013: Verify Product Details Test
+2026-05-22 22:05:43 [INFO] Pages.Home_Page - Selecting product: Samsung galaxy s6
+2026-05-22 22:05:43 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-22 22:05:44 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-22 22:05:44 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 22:05:45 [INFO] Pages.Base_Page - Element is visible: ('css selector', '.name')
+2026-05-22 22:05:45 [INFO] Pages.Product_Page - Getting product title
+2026-05-22 22:05:45 [INFO] Pages.Base_Page - Getting text from: ('css selector', '.name')
+2026-05-22 22:05:45 [INFO] Pages.Base_Page - Text found: 'Samsung galaxy s6'
+2026-05-22 22:05:45 [INFO] test_product - Product title: Samsung galaxy s6
+2026-05-22 22:05:45 [INFO] Pages.Product_Page - Getting product price
+2026-05-22 22:05:45 [INFO] Pages.Base_Page - Getting text from: ('css selector', '.price-container')
+2026-05-22 22:05:45 [INFO] Pages.Base_Page - Text found: '$360 *includes tax'
+2026-05-22 22:05:45 [INFO] Pages.Product_Page - Raw price text: $360 *includes tax
+2026-05-22 22:05:45 [INFO] test_product - Product price: $360 *includes tax
+2026-05-22 22:05:45 [INFO] test_product - TC013: PASSED - Product details verified
+2026-05-22 22:05:45 [INFO] conftest - Closing browser

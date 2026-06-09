@@ -1,0 +1,18 @@
+2026-05-22 15:25:50 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-22 15:25:50 [INFO] WDM - xdist worker is: gw0
+2026-05-22 15:25:50 [INFO] WDM - ====== WebDriver manager ======
+2026-05-22 15:25:51 [INFO] WDM - Driver [C:\Users\PUJA KADAM\.wdm\gw0\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 15:25:52 [INFO] conftest - Browser created: chrome
+2026-05-22 15:25:52 [INFO] Utilities.Config_reader - Config loaded for environment: qa
+2026-05-22 15:25:54 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-22 15:25:54 [INFO] test_e2e - TC017: Search/Browse Product Test
+2026-05-22 15:25:54 [INFO] Pages.Home_Page - Selecting Phones category
+2026-05-22 15:25:54 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//a[text()='Phones']")
+2026-05-22 15:25:54 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//a[text()='Phones']")
+2026-05-22 15:25:54 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 15:25:55 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 15:25:57 [INFO] Pages.Home_Page - Product names: ['Samsung galaxy s6', 'Nokia lumia 1520', 'Nexus 6', 'Samsung galaxy s7', 'Iphone 6 32gb', 'Sony xperia z5', 'HTC One M9']
+2026-05-22 15:25:57 [INFO] test_e2e - Phone products: ['Samsung galaxy s6', 'Nokia lumia 1520', 'Nexus 6', 'Samsung galaxy s7', 'Iphone 6 32gb', 'Sony xperia z5', 'HTC One M9']
+2026-05-22 15:25:57 [INFO] Pages.Base_Page - Element is visible: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-22 15:25:57 [INFO] test_e2e - TC017: PASSED - Product 'Samsung galaxy s6' found in category
+2026-05-22 15:25:57 [INFO] conftest - Closing browser

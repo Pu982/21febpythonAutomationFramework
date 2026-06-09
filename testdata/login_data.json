@@ -1,0 +1,26 @@
+{
+    "validUser": {
+        "username": "pavanol",
+        "password": "test@123"
+    },
+    "invalidUser": {
+        "username": "invaliduser123",
+        "password": "wrongpass"
+    },
+    "blankUsername": {
+        "username": "",
+        "password": "test@123"
+    },
+    "blankPassword": {
+        "username": "pavanol",
+        "password": ""
+    },
+    "blankBoth": {
+        "username": "",
+        "password": ""
+    },
+    "specialCharUser": {
+        "username": "test@#$%",
+        "password": "pass@#$%"
+    }
+}

@@ -1,0 +1,17 @@
+[32mINFO    [0m conftest:conftest.py:57 Creating browser: chrome (headless=False)
+[32mINFO    [0m WDM:logger.py:11 xdist worker is: gw2
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\PUJA KADAM\.wdm\gw2\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+[32mINFO    [0m conftest:conftest.py:123 Browser created: chrome
+[32mINFO    [0m Utilities.Config_reader:Config_reader.py:36 Config loaded for environment: qa
+[32mINFO    [0m conftest:conftest.py:150 Navigated to: https://demoblaze.com/
+[32mINFO    [0m test_e2e:test_e2e.py:265 TC019: Parallel Execution Test
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:239 Element is visible: ('id', 'carouselExampleIndicators')
+[32mINFO    [0m Pages.Home_Page:Home_Page.py:89 Selecting Laptops category
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:104 Clicking element: ('xpath', "//a[text()='Laptops']")
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:110 Clicked element: ('xpath', "//a[text()='Laptops']")
+[33mWARNING [0m Pages.Base_Page:Base_Page.py:226 Hard wait: 1 seconds (avoid in production code)
+[33mWARNING [0m Pages.Base_Page:Base_Page.py:226 Hard wait: 1 seconds (avoid in production code)
+[32mINFO    [0m Pages.Home_Page:Home_Page.py:158 Product names: ['Sony vaio i5', 'Sony vaio i7', 'MacBook air', 'Dell i7 8gb', '2017 Dell 15.6 Inch', 'MacBook Pro']
+[32mINFO    [0m test_e2e:test_e2e.py:279 TC019: PASSED - 6 laptop products found
+[32mINFO    [0m conftest:conftest.py:154 Closing browser

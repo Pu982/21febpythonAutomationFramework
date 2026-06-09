@@ -1,0 +1,37 @@
+[32mINFO    [0m conftest:conftest.py:57 Creating browser: chrome (headless=False)
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\PUJA KADAM\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+[32mINFO    [0m conftest:conftest.py:123 Browser created: chrome
+[32mINFO    [0m Utilities.Config_reader:Config_reader.py:36 Config loaded for environment: qa
+[32mINFO    [0m conftest:conftest.py:150 Navigated to: https://demoblaze.com/
+[32mINFO    [0m test_product:test_product.py:120 TC012: Verify Categories Test
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:239 Element is visible: ('xpath', "//a[text()='Phones']")
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:239 Element is visible: ('xpath', "//a[text()='Laptops']")
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:239 Element is visible: ('xpath', "//a[text()='Monitors']")
+[32mINFO    [0m Pages.Home_Page:Home_Page.py:224 Categories visible - Phones: True, Laptops: True, Monitors: True
+[32mINFO    [0m Pages.Home_Page:Home_Page.py:82 Selecting Phones category
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:104 Clicking element: ('xpath', "//a[text()='Phones']")
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:110 Clicked element: ('xpath', "//a[text()='Phones']")
+[33mWARNING [0m Pages.Base_Page:Base_Page.py:226 Hard wait: 1 seconds (avoid in production code)
+[33mWARNING [0m Pages.Base_Page:Base_Page.py:226 Hard wait: 1 seconds (avoid in production code)
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:272 Element count for ('css selector', '#tbodyid .card'): 7
+[32mINFO    [0m Pages.Home_Page:Home_Page.py:132 Products displayed: 7
+[32mINFO    [0m test_product:test_product.py:134 Phones: 7 products
+[32mINFO    [0m Pages.Home_Page:Home_Page.py:89 Selecting Laptops category
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:104 Clicking element: ('xpath', "//a[text()='Laptops']")
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:110 Clicked element: ('xpath', "//a[text()='Laptops']")
+[33mWARNING [0m Pages.Base_Page:Base_Page.py:226 Hard wait: 1 seconds (avoid in production code)
+[33mWARNING [0m Pages.Base_Page:Base_Page.py:226 Hard wait: 1 seconds (avoid in production code)
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:272 Element count for ('css selector', '#tbodyid .card'): 6
+[32mINFO    [0m Pages.Home_Page:Home_Page.py:132 Products displayed: 6
+[32mINFO    [0m test_product:test_product.py:145 Laptops: 6 products
+[32mINFO    [0m Pages.Home_Page:Home_Page.py:96 Selecting Monitors category
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:104 Clicking element: ('xpath', "//a[text()='Monitors']")
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:110 Clicked element: ('xpath', "//a[text()='Monitors']")
+[33mWARNING [0m Pages.Base_Page:Base_Page.py:226 Hard wait: 1 seconds (avoid in production code)
+[33mWARNING [0m Pages.Base_Page:Base_Page.py:226 Hard wait: 1 seconds (avoid in production code)
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:272 Element count for ('css selector', '#tbodyid .card'): 2
+[32mINFO    [0m Pages.Home_Page:Home_Page.py:132 Products displayed: 2
+[32mINFO    [0m test_product:test_product.py:156 Monitors: 2 products
+[32mINFO    [0m test_product:test_product.py:160 TC012: PASSED - All categories verified
+[32mINFO    [0m conftest:conftest.py:154 Closing browser

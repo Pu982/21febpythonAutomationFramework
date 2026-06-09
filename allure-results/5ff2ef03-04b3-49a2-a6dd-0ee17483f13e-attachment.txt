@@ -1,0 +1,22 @@
+2026-05-22 21:57:37 [INFO] conftest - Creating browser: edge (headless=False)
+2026-05-22 21:57:37 [INFO] WDM - ====== WebDriver manager ======
+2026-05-22 21:57:38 [INFO] WDM - Driver [C:\Users\PUJA KADAM\.wdm\drivers\edgedriver\win64\148.0.3967.83\msedgedriver.exe] found in cache by browser version
+2026-05-22 21:57:39 [INFO] conftest - Browser created: edge
+2026-05-22 21:57:39 [INFO] Utilities.Config_reader - Config loaded for environment: qa
+2026-05-22 21:57:41 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-22 21:57:41 [INFO] test_product - TC006: Add Single Product Test
+2026-05-22 21:57:41 [INFO] Pages.Home_Page - Selecting product: Samsung galaxy s6
+2026-05-22 21:57:41 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-22 21:57:43 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-22 21:57:43 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 21:57:44 [INFO] Pages.Product_Page - Adding product to cart
+2026-05-22 21:57:44 [INFO] Pages.Base_Page - Waiting for element: ('css selector', '.name')
+2026-05-22 21:57:44 [INFO] Pages.Base_Page - Element visible: ('css selector', '.name')
+2026-05-22 21:57:44 [INFO] Pages.Base_Page - Waiting for element clickable: ('xpath', "//a[text()='Add to cart']")
+2026-05-22 21:57:44 [WARNING] Pages.Base_Page - Hard wait: 2 seconds (avoid in production code)
+2026-05-22 21:57:46 [INFO] Pages.Base_Page - Accepting alert
+2026-05-22 21:57:46 [INFO] Pages.Base_Page - Waiting for alert
+2026-05-22 21:57:46 [INFO] Pages.Base_Page - Alert accepted. Text was: 'Product added'
+2026-05-22 21:57:46 [INFO] Pages.Product_Page - Cart alert: Product added
+2026-05-22 21:57:46 [INFO] test_product - TC006: PASSED - Single product added to cart
+2026-05-22 21:57:46 [INFO] conftest - Closing browser

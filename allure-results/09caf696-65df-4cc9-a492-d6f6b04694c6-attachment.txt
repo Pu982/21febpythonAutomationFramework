@@ -1,0 +1,36 @@
+2026-05-22 15:01:31 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-22 15:01:31 [INFO] WDM - ====== WebDriver manager ======
+2026-05-22 15:01:32 [INFO] WDM - Driver [C:\Users\PUJA KADAM\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 15:01:33 [INFO] conftest - Browser created: chrome
+2026-05-22 15:01:33 [INFO] Utilities.Config_reader - Config loaded for environment: qa
+2026-05-22 15:01:34 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-22 15:01:34 [INFO] test_contact - ========== TC015 STARTED ==========
+2026-05-22 15:01:34 [INFO] Utilities.random_data_generator - Generated email: test_pkozp_150134@test.com
+2026-05-22 15:01:34 [INFO] Utilities.random_data_generator - Generated name: David
+2026-05-22 15:01:34 [INFO] test_contact - Generated Data -> Name: David, Email: test_pkozp_150134@test.com
+2026-05-22 15:01:34 [INFO] Pages.Home_Page - Clicking Contact link
+2026-05-22 15:01:34 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//a[text()='Contact']")
+2026-05-22 15:01:34 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//a[text()='Contact']")
+2026-05-22 15:01:34 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 15:01:35 [INFO] Pages.Contact_page - Filling and sending contact form
+2026-05-22 15:01:35 [INFO] Pages.Contact_page - Entering contact email: test_pkozp_150134@test.com
+2026-05-22 15:01:35 [INFO] Pages.Base_Page - Entering text 'test_pkozp_150134@test.com' into: ('id', 'recipient-email')
+2026-05-22 15:01:36 [INFO] Pages.Base_Page - Text entered successfully: ('id', 'recipient-email')
+2026-05-22 15:01:36 [INFO] Pages.Contact_page - Entering contact name: David
+2026-05-22 15:01:36 [INFO] Pages.Base_Page - Entering text 'David' into: ('id', 'recipient-name')
+2026-05-22 15:01:36 [INFO] Pages.Base_Page - Text entered successfully: ('id', 'recipient-name')
+2026-05-22 15:01:36 [INFO] Pages.Contact_page - Entering message: This is an automated test message for contact form...
+2026-05-22 15:01:36 [INFO] Pages.Base_Page - Entering text 'This is an automated test message for contact form validation.' into: ('id', 'message-text')
+2026-05-22 15:01:36 [INFO] Pages.Base_Page - Text entered successfully: ('id', 'message-text')
+2026-05-22 15:01:36 [INFO] Pages.Contact_page - Clicking Send message button
+2026-05-22 15:01:36 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//button[text()='Send message']")
+2026-05-22 15:01:36 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//button[text()='Send message']")
+2026-05-22 15:01:36 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 15:01:37 [INFO] Pages.Base_Page - Accepting alert
+2026-05-22 15:01:37 [INFO] Pages.Base_Page - Waiting for alert
+2026-05-22 15:01:37 [INFO] Pages.Base_Page - Alert accepted. Text was: 'Thanks for the message!!'
+2026-05-22 15:01:37 [INFO] Pages.Contact_page - Contact alert: Thanks for the message!!
+2026-05-22 15:01:37 [INFO] test_contact - Contact Form Alert: Thanks for the message!!
+2026-05-22 15:01:37 [INFO] test_contact - TC015 PASSED - Contact form submitted successfully
+2026-05-22 15:01:37 [INFO] test_contact - ========== TC015 COMPLETED ==========
+2026-05-22 15:01:37 [INFO] conftest - Closing browser

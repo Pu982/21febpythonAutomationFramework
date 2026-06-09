@@ -1,0 +1,70 @@
+[32mINFO    [0m conftest:conftest.py:57 Creating browser: chrome (headless=False)
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\PUJA KADAM\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+[32mINFO    [0m conftest:conftest.py:123 Browser created: chrome
+[32mINFO    [0m Utilities.Config_reader:Config_reader.py:36 Config loaded for environment: qa
+[32mINFO    [0m conftest:conftest.py:150 Navigated to: https://demoblaze.com/
+[32mINFO    [0m test_checkout:test_checkout.py:113 TC011: Verify Order Confirmation Test
+[32mINFO    [0m Pages.Home_Page:Home_Page.py:139 Selecting product: Samsung galaxy s6
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:104 Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:110 Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+[33mWARNING [0m Pages.Base_Page:Base_Page.py:226 Hard wait: 1 seconds (avoid in production code)
+[32mINFO    [0m Pages.Product_Page:Product_Page.py:83 Adding product to cart
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:104 Clicking element: ('xpath', "//a[text()='Add to cart']")
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:110 Clicked element: ('xpath', "//a[text()='Add to cart']")
+[33mWARNING [0m Pages.Base_Page:Base_Page.py:226 Hard wait: 2 seconds (avoid in production code)
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:355 Accepting alert
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:221 Waiting for alert
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:359 Alert accepted. Text was: 'Product added'
+[32mINFO    [0m Pages.Product_Page:Product_Page.py:95 Cart alert: Product added
+[33mWARNING [0m Pages.Base_Page:Base_Page.py:226 Hard wait: 2 seconds (avoid in production code)
+[32mINFO    [0m Pages.Cart_page:Cart_page.py:89 Clicking Place Order button
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:104 Clicking element: ('xpath', "//button[text()='Place Order']")
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:110 Clicked element: ('xpath', "//button[text()='Place Order']")
+[33mWARNING [0m Pages.Base_Page:Base_Page.py:226 Hard wait: 1 seconds (avoid in production code)
+[32mINFO    [0m Pages.Checkout_page:Checkout_page.py:175 Starting complete purchase flow
+[32mINFO    [0m Pages.Checkout_page:Checkout_page.py:53 Opening checkout modal
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:176 Waiting for element: ('id', 'orderModal')
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:181 Element visible: ('id', 'orderModal')
+[32mINFO    [0m Pages.Checkout_page:Checkout_page.py:111 Filling checkout form
+[32mINFO    [0m Pages.Checkout_page:Checkout_page.py:61 Entering name: John Doe
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:117 Entering text 'John Doe' into: ('id', 'name')
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:124 Text entered successfully: ('id', 'name')
+[32mINFO    [0m Pages.Checkout_page:Checkout_page.py:68 Entering country: USA
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:117 Entering text 'USA' into: ('id', 'country')
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:124 Text entered successfully: ('id', 'country')
+[32mINFO    [0m Pages.Checkout_page:Checkout_page.py:75 Entering city: New York
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:117 Entering text 'New York' into: ('id', 'city')
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:124 Text entered successfully: ('id', 'city')
+[32mINFO    [0m Pages.Checkout_page:Checkout_page.py:82 Entering credit card details
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:117 Entering text '4111111111111111' into: ('id', 'card')
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:124 Text entered successfully: ('id', 'card')
+[32mINFO    [0m Pages.Checkout_page:Checkout_page.py:89 Entering month: 12
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:117 Entering text '12' into: ('id', 'month')
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:124 Text entered successfully: ('id', 'month')
+[32mINFO    [0m Pages.Checkout_page:Checkout_page.py:96 Entering year: 2027
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:117 Entering text '2027' into: ('id', 'year')
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:124 Text entered successfully: ('id', 'year')
+[32mINFO    [0m Pages.Checkout_page:Checkout_page.py:124 Clicking Purchase button
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:104 Clicking element: ('xpath', "//button[text()='Purchase']")
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:110 Clicked element: ('xpath', "//button[text()='Purchase']")
+[32mINFO    [0m Pages.Checkout_page:Checkout_page.py:190 Purchase completed successfully
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:239 Element is visible: ('css selector', '.sweet-alert h2')
+[32mINFO    [0m Pages.Checkout_page:Checkout_page.py:203 Getting confirmation details
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:143 Getting text from: ('css selector', '.sweet-alert p')
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:149 Text found: 'Id: 3426567
+Amount: 360 USD
+Card Number: 4111111111111111
+Name: John Doe
+Date: 22/4/2026'
+[32mINFO    [0m test_checkout:test_checkout.py:146 Confirmation details: Id: 3426567
+Amount: 360 USD
+Card Number: 4111111111111111
+Name: John Doe
+Date: 22/4/2026
+[32mINFO    [0m Pages.Checkout_page:Checkout_page.py:209 Clicking confirmation OK
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:104 Clicking element: ('xpath', "//button[text()='OK']")
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:110 Clicked element: ('xpath', "//button[text()='OK']")
+[33mWARNING [0m Pages.Base_Page:Base_Page.py:226 Hard wait: 1 seconds (avoid in production code)
+[32mINFO    [0m test_checkout:test_checkout.py:157 TC011: PASSED - Order confirmation details verified
+[32mINFO    [0m conftest:conftest.py:154 Closing browser

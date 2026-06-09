@@ -1,0 +1,10 @@
+2026-05-22 21:55:51 [INFO] conftest - Creating browser: edge (headless=False)
+2026-05-22 21:55:51 [INFO] WDM - ====== WebDriver manager ======
+2026-05-22 21:55:52 [INFO] WDM - Driver [C:\Users\PUJA KADAM\.wdm\drivers\edgedriver\win64\148.0.3967.83\msedgedriver.exe] found in cache by browser version
+2026-05-22 21:55:53 [INFO] conftest - Browser created: edge
+2026-05-22 21:55:53 [INFO] Utilities.Config_reader - Config loaded for environment: qa
+2026-05-22 21:55:54 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-22 21:55:54 [INFO] test_e2e - TC016: Broken Link Validation Test
+2026-05-22 21:55:59 [INFO] test_e2e - Total links checked: 4, broken: 0
+2026-05-22 21:55:59 [INFO] test_e2e - TC016: PASSED - No broken links found
+2026-05-22 21:55:59 [INFO] conftest - Closing browser

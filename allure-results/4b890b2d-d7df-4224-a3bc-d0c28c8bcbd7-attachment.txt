@@ -1,0 +1,17 @@
+[32mINFO    [0m conftest:conftest.py:80 Creating browser: edge (headless=False)
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\PUJA KADAM\.wdm\drivers\edgedriver\win64\148.0.3967.83\msedgedriver.exe] found in cache by browser version
+[32mINFO    [0m conftest:conftest.py:155 Browser created: edge
+[32mINFO    [0m Utilities.Config_reader:Config_reader.py:36 Config loaded for environment: qa
+[32mINFO    [0m conftest:conftest.py:182 Navigated to: https://demoblaze.com/
+[32mINFO    [0m test_e2e:test_e2e.py:187 TC017: Search/Browse Product Test
+[32mINFO    [0m Pages.Home_Page:Home_Page.py:82 Selecting Phones category
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:104 Clicking element: ('xpath', "//a[text()='Phones']")
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:110 Clicked element: ('xpath', "//a[text()='Phones']")
+[33mWARNING [0m Pages.Base_Page:Base_Page.py:226 Hard wait: 1 seconds (avoid in production code)
+[33mWARNING [0m Pages.Base_Page:Base_Page.py:226 Hard wait: 1 seconds (avoid in production code)
+[32mINFO    [0m Pages.Home_Page:Home_Page.py:158 Product names: ['Samsung galaxy s6', 'Nokia lumia 1520', 'Nexus 6', 'Samsung galaxy s7', 'Iphone 6 32gb', 'Sony xperia z5', 'HTC One M9']
+[32mINFO    [0m test_e2e:test_e2e.py:195 Phone products: ['Samsung galaxy s6', 'Nokia lumia 1520', 'Nexus 6', 'Samsung galaxy s7', 'Iphone 6 32gb', 'Sony xperia z5', 'HTC One M9']
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:239 Element is visible: ('xpath', "//a[text()='Samsung galaxy s6']")
+[32mINFO    [0m test_e2e:test_e2e.py:207 TC017: PASSED - Product 'Samsung galaxy s6' found in category
+[32mINFO    [0m conftest:conftest.py:186 Closing browser

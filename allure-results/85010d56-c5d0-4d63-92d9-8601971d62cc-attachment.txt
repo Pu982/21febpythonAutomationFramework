@@ -1,0 +1,17 @@
+2026-05-22 15:32:55 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-22 15:32:55 [INFO] WDM - xdist worker is: gw2
+2026-05-22 15:32:55 [INFO] WDM - ====== WebDriver manager ======
+2026-05-22 15:32:57 [INFO] WDM - Driver [C:\Users\PUJA KADAM\.wdm\gw2\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 15:32:58 [INFO] conftest - Browser created: chrome
+2026-05-22 15:32:58 [INFO] Utilities.Config_reader - Config loaded for environment: qa
+2026-05-22 15:33:02 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-22 15:33:02 [INFO] test_e2e - TC019: Parallel Execution Test
+2026-05-22 15:33:02 [INFO] Pages.Base_Page - Element is visible: ('id', 'carouselExampleIndicators')
+2026-05-22 15:33:02 [INFO] Pages.Home_Page - Selecting Laptops category
+2026-05-22 15:33:02 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//a[text()='Laptops']")
+2026-05-22 15:33:02 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//a[text()='Laptops']")
+2026-05-22 15:33:02 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 15:33:03 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 15:33:05 [INFO] Pages.Home_Page - Product names: ['Sony vaio i5', 'Sony vaio i7', 'MacBook air', 'Dell i7 8gb', '2017 Dell 15.6 Inch', 'MacBook Pro']
+2026-05-22 15:33:05 [INFO] test_e2e - TC019: PASSED - 6 laptop products found
+2026-05-22 15:33:05 [INFO] conftest - Closing browser

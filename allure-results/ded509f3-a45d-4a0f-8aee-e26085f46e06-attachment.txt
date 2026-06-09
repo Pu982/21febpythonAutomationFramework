@@ -1,0 +1,56 @@
+2026-05-22 16:04:15 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-22 16:04:15 [INFO] WDM - ====== WebDriver manager ======
+2026-05-22 16:04:15 [INFO] WDM - Driver [C:\Users\PUJA KADAM\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 16:04:17 [INFO] conftest - Browser created: chrome
+2026-05-22 16:04:17 [INFO] Utilities.Config_reader - Config loaded for environment: qa
+2026-05-22 16:04:18 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-22 16:04:18 [INFO] test_cart - TC009: Verify Cart Total Test
+2026-05-22 16:04:18 [INFO] Pages.Home_Page - Selecting product: Samsung galaxy s6
+2026-05-22 16:04:18 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-22 16:04:20 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-22 16:04:20 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 16:04:21 [INFO] Pages.Product_Page - Adding product to cart
+2026-05-22 16:04:21 [INFO] Pages.Base_Page - Waiting for element: ('css selector', '.name')
+2026-05-22 16:04:21 [INFO] Pages.Base_Page - Element visible: ('css selector', '.name')
+2026-05-22 16:04:21 [INFO] Pages.Base_Page - Waiting for element clickable: ('xpath', "//a[text()='Add to cart']")
+2026-05-22 16:04:22 [WARNING] Pages.Base_Page - Hard wait: 2 seconds (avoid in production code)
+2026-05-22 16:04:24 [INFO] Pages.Base_Page - Accepting alert
+2026-05-22 16:04:24 [INFO] Pages.Base_Page - Waiting for alert
+2026-05-22 16:04:24 [INFO] Pages.Base_Page - Alert accepted. Text was: 'Product added'
+2026-05-22 16:04:24 [INFO] Pages.Product_Page - Cart alert: Product added
+2026-05-22 16:04:24 [INFO] Pages.Product_Page - Navigating back to home
+2026-05-22 16:04:24 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//a[text()='Home ']")
+2026-05-22 16:04:25 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//a[text()='Home ']")
+2026-05-22 16:04:25 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 16:04:26 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 16:04:27 [INFO] Pages.Home_Page - Selecting product: Nokia lumia 1520
+2026-05-22 16:04:27 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//a[text()='Nokia lumia 1520']")
+2026-05-22 16:04:28 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//a[text()='Nokia lumia 1520']")
+2026-05-22 16:04:28 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 16:04:29 [INFO] Pages.Product_Page - Adding product to cart
+2026-05-22 16:04:29 [INFO] Pages.Base_Page - Waiting for element: ('css selector', '.name')
+2026-05-22 16:04:30 [INFO] Pages.Base_Page - Element visible: ('css selector', '.name')
+2026-05-22 16:04:30 [INFO] Pages.Base_Page - Waiting for element clickable: ('xpath', "//a[text()='Add to cart']")
+2026-05-22 16:04:30 [WARNING] Pages.Base_Page - Hard wait: 2 seconds (avoid in production code)
+2026-05-22 16:04:32 [INFO] Pages.Base_Page - Accepting alert
+2026-05-22 16:04:32 [INFO] Pages.Base_Page - Waiting for alert
+2026-05-22 16:04:32 [INFO] Pages.Base_Page - Alert accepted. Text was: 'Product added'
+2026-05-22 16:04:32 [INFO] Pages.Product_Page - Cart alert: Product added
+2026-05-22 16:04:32 [INFO] Pages.Product_Page - Navigating back to home
+2026-05-22 16:04:32 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//a[text()='Home ']")
+2026-05-22 16:04:32 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//a[text()='Home ']")
+2026-05-22 16:04:32 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 16:04:33 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 16:04:35 [WARNING] Pages.Base_Page - Hard wait: 2 seconds (avoid in production code)
+2026-05-22 16:04:37 [INFO] Pages.Cart_page - Getting total price
+2026-05-22 16:04:37 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 16:04:38 [INFO] Pages.Base_Page - Getting text from: ('id', 'totalp')
+2026-05-22 16:04:38 [INFO] Pages.Base_Page - Text found: '1180'
+2026-05-22 16:04:38 [INFO] Pages.Cart_page - Total price: 1180
+2026-05-22 16:04:38 [INFO] test_cart - Cart total: 1180
+2026-05-22 16:04:38 [INFO] Pages.Cart_page - Getting cart prices
+2026-05-22 16:04:38 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 16:04:39 [INFO] Pages.Cart_page - Cart prices: ['820', '360']
+2026-05-22 16:04:40 [INFO] test_cart - Sum of prices: 1180, Displayed total: 1180
+2026-05-22 16:04:40 [INFO] test_cart - TC009 PASSED - Cart total verified successfully
+2026-05-22 16:04:40 [INFO] conftest - Closing browser

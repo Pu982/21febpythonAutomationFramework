@@ -1,0 +1,10 @@
+[32mINFO    [0m conftest:conftest.py:57 Creating browser: chrome (headless=False)
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\PUJA KADAM\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+[32mINFO    [0m conftest:conftest.py:123 Browser created: chrome
+[32mINFO    [0m Utilities.Config_reader:Config_reader.py:36 Config loaded for environment: qa
+[32mINFO    [0m conftest:conftest.py:150 Navigated to: https://demoblaze.com/
+[32mINFO    [0m test_e2e:test_e2e.py:104 TC016: Broken Link Validation Test
+[32mINFO    [0m test_e2e:test_e2e.py:160 Total links checked: 4, broken: 0
+[32mINFO    [0m test_e2e:test_e2e.py:168 TC016: PASSED - No broken links found
+[32mINFO    [0m conftest:conftest.py:154 Closing browser

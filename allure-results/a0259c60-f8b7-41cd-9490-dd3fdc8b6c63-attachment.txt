@@ -1,0 +1,8 @@
+2026-05-22 15:56:34 [INFO] conftest - Creating browser: firefox (headless=False)
+2026-05-22 15:56:34 [INFO] WDM - ====== WebDriver manager ======
+2026-05-22 15:56:36 [INFO] WDM - Get LATEST geckodriver version for None firefox
+2026-05-22 15:56:37 [INFO] WDM - Getting latest mozilla release info for v0.36.0
+2026-05-22 15:56:37 [INFO] WDM - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
+2026-05-22 15:56:38 [INFO] WDM - Driver downloading response is 200
+2026-05-22 15:56:40 [INFO] WDM - Get LATEST geckodriver version for None firefox
+2026-05-22 15:56:42 [INFO] WDM - Driver has been saved in cache [C:\Users\PUJA KADAM\.wdm\drivers\geckodriver\win64\v0.36.0]

@@ -1,0 +1,38 @@
+2026-05-22 15:34:21 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-22 15:34:21 [INFO] WDM - xdist worker is: gw1
+2026-05-22 15:34:21 [INFO] WDM - ====== WebDriver manager ======
+2026-05-22 15:34:22 [INFO] WDM - Driver [C:\Users\PUJA KADAM\.wdm\gw1\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 15:34:23 [INFO] conftest - Browser created: chrome
+2026-05-22 15:34:23 [INFO] Utilities.Config_reader - Config loaded for environment: qa
+2026-05-22 15:34:25 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-22 15:34:25 [INFO] test_product - TC012: Verify Categories Test
+2026-05-22 15:34:25 [INFO] Pages.Base_Page - Element is visible: ('xpath', "//a[text()='Phones']")
+2026-05-22 15:34:25 [INFO] Pages.Base_Page - Element is visible: ('xpath', "//a[text()='Laptops']")
+2026-05-22 15:34:25 [INFO] Pages.Base_Page - Element is visible: ('xpath', "//a[text()='Monitors']")
+2026-05-22 15:34:25 [INFO] Pages.Home_Page - Categories visible - Phones: True, Laptops: True, Monitors: True
+2026-05-22 15:34:25 [INFO] Pages.Home_Page - Selecting Phones category
+2026-05-22 15:34:25 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//a[text()='Phones']")
+2026-05-22 15:34:25 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//a[text()='Phones']")
+2026-05-22 15:34:25 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 15:34:26 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 15:34:27 [INFO] Pages.Base_Page - Element count for ('css selector', '#tbodyid .card'): 7
+2026-05-22 15:34:27 [INFO] Pages.Home_Page - Products displayed: 7
+2026-05-22 15:34:27 [INFO] test_product - Phones: 7 products
+2026-05-22 15:34:27 [INFO] Pages.Home_Page - Selecting Laptops category
+2026-05-22 15:34:27 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//a[text()='Laptops']")
+2026-05-22 15:34:27 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//a[text()='Laptops']")
+2026-05-22 15:34:27 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 15:34:28 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 15:34:29 [INFO] Pages.Base_Page - Element count for ('css selector', '#tbodyid .card'): 6
+2026-05-22 15:34:29 [INFO] Pages.Home_Page - Products displayed: 6
+2026-05-22 15:34:29 [INFO] test_product - Laptops: 6 products
+2026-05-22 15:34:29 [INFO] Pages.Home_Page - Selecting Monitors category
+2026-05-22 15:34:29 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//a[text()='Monitors']")
+2026-05-22 15:34:29 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//a[text()='Monitors']")
+2026-05-22 15:34:29 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 15:34:30 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 15:34:31 [INFO] Pages.Base_Page - Element count for ('css selector', '#tbodyid .card'): 2
+2026-05-22 15:34:31 [INFO] Pages.Home_Page - Products displayed: 2
+2026-05-22 15:34:31 [INFO] test_product - Monitors: 2 products
+2026-05-22 15:34:31 [INFO] test_product - TC012: PASSED - All categories verified
+2026-05-22 15:34:31 [INFO] conftest - Closing browser

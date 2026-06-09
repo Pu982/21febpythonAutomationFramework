@@ -1,0 +1,43 @@
+2026-05-22 21:53:50 [INFO] conftest - Creating browser: edge (headless=False)
+2026-05-22 21:53:51 [INFO] WDM - ====== WebDriver manager ======
+2026-05-22 21:53:53 [INFO] WDM - Get LATEST edgedriver version for Edge 148.0.3967
+2026-05-22 21:53:54 [INFO] WDM - There is no [win64] edgedriver "148.0.3967.83" for browser edge "148.0.3967" in cache
+2026-05-22 21:53:55 [INFO] WDM - There is no [win64] edgedriver "148.0.3967.83" for browser edge "148.0.3967" in cache
+2026-05-22 21:53:55 [INFO] WDM - Get LATEST edgedriver version for Edge 148.0.3967
+2026-05-22 21:53:56 [INFO] WDM - About to download new driver from https://msedgedriver.microsoft.com/148.0.3967.83/edgedriver_win64.zip
+2026-05-22 21:53:56 [INFO] WDM - Driver downloading response is 200
+2026-05-22 21:54:10 [INFO] WDM - Driver has been saved in cache [C:\Users\PUJA KADAM\.wdm\drivers\edgedriver\win64\148.0.3967.83]
+2026-05-22 21:54:11 [INFO] conftest - Browser created: edge
+2026-05-22 21:54:11 [INFO] Utilities.Config_reader - Config loaded for environment: qa
+2026-05-22 21:54:15 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-22 21:54:15 [INFO] test_cart - TC008: Remove Product from Cart Test
+2026-05-22 21:54:15 [INFO] Pages.Home_Page - Selecting product: Samsung galaxy s6
+2026-05-22 21:54:15 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-22 21:54:16 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-22 21:54:16 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 21:54:17 [INFO] Pages.Product_Page - Adding product to cart
+2026-05-22 21:54:17 [INFO] Pages.Base_Page - Waiting for element: ('css selector', '.name')
+2026-05-22 21:54:17 [INFO] Pages.Base_Page - Element visible: ('css selector', '.name')
+2026-05-22 21:54:17 [INFO] Pages.Base_Page - Waiting for element clickable: ('xpath', "//a[text()='Add to cart']")
+2026-05-22 21:54:17 [WARNING] Pages.Base_Page - Hard wait: 2 seconds (avoid in production code)
+2026-05-22 21:54:19 [INFO] Pages.Base_Page - Accepting alert
+2026-05-22 21:54:19 [INFO] Pages.Base_Page - Waiting for alert
+2026-05-22 21:54:19 [INFO] Pages.Base_Page - Alert accepted. Text was: 'Product added'
+2026-05-22 21:54:19 [INFO] Pages.Product_Page - Cart alert: Product added
+2026-05-22 21:54:20 [WARNING] Pages.Base_Page - Hard wait: 2 seconds (avoid in production code)
+2026-05-22 21:54:22 [INFO] Pages.Cart_page - Getting cart items
+2026-05-22 21:54:22 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 21:54:23 [INFO] Pages.Cart_page - Cart items: ['Samsung galaxy s6']
+2026-05-22 21:54:23 [INFO] Pages.Cart_page - Cart item count: 1
+2026-05-22 21:54:23 [INFO] test_cart - Cart items before delete: 1
+2026-05-22 21:54:23 [INFO] Pages.Cart_page - Deleting first cart item
+2026-05-22 21:54:23 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//a[text()='Delete']")
+2026-05-22 21:54:23 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//a[text()='Delete']")
+2026-05-22 21:54:23 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 21:54:24 [WARNING] Pages.Base_Page - Hard wait: 2 seconds (avoid in production code)
+2026-05-22 21:54:26 [INFO] Pages.Cart_page - Getting cart items
+2026-05-22 21:54:26 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 21:54:37 [INFO] Pages.Cart_page - Cart items: []
+2026-05-22 21:54:37 [INFO] Pages.Cart_page - Cart item count: 0
+2026-05-22 21:54:37 [INFO] test_cart - TC008 PASSED - Item removed successfully. Before: 1, After: 0
+2026-05-22 21:54:37 [INFO] conftest - Closing browser

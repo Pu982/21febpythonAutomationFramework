@@ -1,0 +1,15 @@
+2026-05-22 22:02:19 [INFO] conftest - Creating browser: firefox (headless=False)
+2026-05-22 22:02:19 [INFO] WDM - ====== WebDriver manager ======
+2026-05-22 22:02:20 [INFO] WDM - Driver [C:\Users\PUJA KADAM\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache by browser version
+2026-05-22 22:02:26 [INFO] conftest - Browser created: firefox
+2026-05-22 22:02:26 [INFO] Utilities.Config_reader - Config loaded for environment: staging
+2026-05-22 22:02:28 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-22 22:02:28 [INFO] test_e2e - TC018: Cross Browser Test
+2026-05-22 22:02:28 [INFO] Pages.Base_Page - Element is visible: ('id', 'carouselExampleIndicators')
+2026-05-22 22:02:28 [INFO] test_e2e - Page title: STORE
+2026-05-22 22:02:28 [INFO] Pages.Base_Page - Element is visible: ('xpath', "//a[text()='Phones']")
+2026-05-22 22:02:28 [INFO] Pages.Base_Page - Element is visible: ('xpath', "//a[text()='Laptops']")
+2026-05-22 22:02:28 [INFO] Pages.Base_Page - Element is visible: ('xpath', "//a[text()='Monitors']")
+2026-05-22 22:02:28 [INFO] Pages.Home_Page - Categories visible - Phones: True, Laptops: True, Monitors: True
+2026-05-22 22:02:28 [INFO] test_e2e - TC018: PASSED - Cross browser verification complete
+2026-05-22 22:02:28 [INFO] conftest - Closing browser

@@ -1,0 +1,24 @@
+[32mINFO    [0m conftest:conftest.py:57 Creating browser: chrome (headless=False)
+[32mINFO    [0m WDM:logger.py:11 xdist worker is: gw1
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\PUJA KADAM\.wdm\gw1\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+[32mINFO    [0m conftest:conftest.py:123 Browser created: chrome
+[32mINFO    [0m Utilities.Config_reader:Config_reader.py:36 Config loaded for environment: qa
+[32mINFO    [0m conftest:conftest.py:150 Navigated to: https://demoblaze.com/
+[32mINFO    [0m test_product:test_product.py:176 TC013: Verify Product Details Test
+[32mINFO    [0m Pages.Home_Page:Home_Page.py:139 Selecting product: Samsung galaxy s6
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:104 Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:110 Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+[33mWARNING [0m Pages.Base_Page:Base_Page.py:226 Hard wait: 1 seconds (avoid in production code)
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:239 Element is visible: ('css selector', '.name')
+[32mINFO    [0m Pages.Product_Page:Product_Page.py:56 Getting product title
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:143 Getting text from: ('css selector', '.name')
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:149 Text found: 'Samsung galaxy s6'
+[32mINFO    [0m test_product:test_product.py:188 Product title: Samsung galaxy s6
+[32mINFO    [0m Pages.Product_Page:Product_Page.py:63 Getting product price
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:143 Getting text from: ('css selector', '.price-container')
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:149 Text found: '$360 *includes tax'
+[32mINFO    [0m Pages.Product_Page:Product_Page.py:67 Raw price text: $360 *includes tax
+[32mINFO    [0m test_product:test_product.py:194 Product price: $360 *includes tax
+[32mINFO    [0m test_product:test_product.py:197 TC013: PASSED - Product details verified
+[32mINFO    [0m conftest:conftest.py:154 Closing browser

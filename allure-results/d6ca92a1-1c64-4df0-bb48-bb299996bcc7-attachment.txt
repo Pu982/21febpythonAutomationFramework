@@ -1,0 +1,45 @@
+2026-05-22 15:32:22 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-22 15:32:22 [INFO] WDM - xdist worker is: gw2
+2026-05-22 15:32:22 [INFO] WDM - ====== WebDriver manager ======
+2026-05-22 15:32:25 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-22 15:32:26 [INFO] WDM - There is no [win64] chromedriver "148.0.7778.178" for browser google-chrome "148.0.7778" in cache
+2026-05-22 15:32:28 [INFO] WDM - There is no [win64] chromedriver "148.0.7778.178" for browser google-chrome "148.0.7778" in cache
+2026-05-22 15:32:28 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-22 15:32:31 [INFO] WDM - WebDriver version 148.0.7778.178 selected
+2026-05-22 15:32:31 [INFO] WDM - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-22 15:32:31 [INFO] WDM - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-22 15:32:33 [INFO] WDM - Driver downloading response is 200
+2026-05-22 15:32:36 [INFO] WDM - Driver has been saved in cache [C:\Users\PUJA KADAM\.wdm\gw2\drivers\chromedriver\win64\148.0.7778.178]
+2026-05-22 15:32:38 [INFO] conftest - Browser created: chrome
+2026-05-22 15:32:38 [INFO] Utilities.Config_reader - Config loaded for environment: qa
+2026-05-22 15:32:40 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-22 15:32:41 [INFO] test_contact - ========== TC015 STARTED ==========
+2026-05-22 15:32:41 [INFO] Utilities.random_data_generator - Generated email: test_nskyk_153241@test.com
+2026-05-22 15:32:41 [INFO] Utilities.random_data_generator - Generated name: Sarah
+2026-05-22 15:32:41 [INFO] test_contact - Generated Data -> Name: Sarah, Email: test_nskyk_153241@test.com
+2026-05-22 15:32:41 [INFO] Pages.Home_Page - Clicking Contact link
+2026-05-22 15:32:41 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//a[text()='Contact']")
+2026-05-22 15:32:41 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//a[text()='Contact']")
+2026-05-22 15:32:41 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 15:32:42 [INFO] Pages.Contact_page - Filling and sending contact form
+2026-05-22 15:32:42 [INFO] Pages.Contact_page - Entering contact email: test_nskyk_153241@test.com
+2026-05-22 15:32:42 [INFO] Pages.Base_Page - Entering text 'test_nskyk_153241@test.com' into: ('id', 'recipient-email')
+2026-05-22 15:32:43 [INFO] Pages.Base_Page - Text entered successfully: ('id', 'recipient-email')
+2026-05-22 15:32:43 [INFO] Pages.Contact_page - Entering contact name: Sarah
+2026-05-22 15:32:43 [INFO] Pages.Base_Page - Entering text 'Sarah' into: ('id', 'recipient-name')
+2026-05-22 15:32:43 [INFO] Pages.Base_Page - Text entered successfully: ('id', 'recipient-name')
+2026-05-22 15:32:43 [INFO] Pages.Contact_page - Entering message: This is an automated test message for contact form...
+2026-05-22 15:32:43 [INFO] Pages.Base_Page - Entering text 'This is an automated test message for contact form validation.' into: ('id', 'message-text')
+2026-05-22 15:32:45 [INFO] Pages.Base_Page - Text entered successfully: ('id', 'message-text')
+2026-05-22 15:32:45 [INFO] Pages.Contact_page - Clicking Send message button
+2026-05-22 15:32:45 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//button[text()='Send message']")
+2026-05-22 15:32:45 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//button[text()='Send message']")
+2026-05-22 15:32:45 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 15:32:46 [INFO] Pages.Base_Page - Accepting alert
+2026-05-22 15:32:46 [INFO] Pages.Base_Page - Waiting for alert
+2026-05-22 15:32:46 [INFO] Pages.Base_Page - Alert accepted. Text was: 'Thanks for the message!!'
+2026-05-22 15:32:46 [INFO] Pages.Contact_page - Contact alert: Thanks for the message!!
+2026-05-22 15:32:46 [INFO] test_contact - Contact Form Alert: Thanks for the message!!
+2026-05-22 15:32:46 [INFO] test_contact - TC015 PASSED - Contact form submitted successfully
+2026-05-22 15:32:46 [INFO] test_contact - ========== TC015 COMPLETED ==========
+2026-05-22 15:32:46 [INFO] conftest - Closing browser

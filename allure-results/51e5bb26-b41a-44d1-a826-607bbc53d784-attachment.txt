@@ -1,0 +1,71 @@
+2026-05-22 15:24:41 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-22 15:24:41 [INFO] WDM - xdist worker is: gw1
+2026-05-22 15:24:41 [INFO] WDM - ====== WebDriver manager ======
+2026-05-22 15:24:43 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-22 15:24:44 [INFO] WDM - There is no [win64] chromedriver "148.0.7778.178" for browser google-chrome "148.0.7778" in cache
+2026-05-22 15:24:44 [INFO] WDM - There is no [win64] chromedriver "148.0.7778.178" for browser google-chrome "148.0.7778" in cache
+2026-05-22 15:24:44 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-22 15:24:46 [INFO] WDM - WebDriver version 148.0.7778.178 selected
+2026-05-22 15:24:46 [INFO] WDM - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-22 15:24:46 [INFO] WDM - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-22 15:24:47 [INFO] WDM - Driver downloading response is 200
+2026-05-22 15:24:49 [INFO] WDM - Driver has been saved in cache [C:\Users\PUJA KADAM\.wdm\gw1\drivers\chromedriver\win64\148.0.7778.178]
+2026-05-22 15:24:50 [INFO] conftest - Browser created: chrome
+2026-05-22 15:24:50 [INFO] Utilities.Config_reader - Config loaded for environment: qa
+2026-05-22 15:24:51 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-22 15:24:51 [INFO] test_checkout - TC010: Place Order Test
+2026-05-22 15:24:51 [INFO] Pages.Home_Page - Selecting product: Samsung galaxy s6
+2026-05-22 15:24:51 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-22 15:24:54 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-22 15:24:54 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 15:24:55 [INFO] Pages.Product_Page - Adding product to cart
+2026-05-22 15:24:55 [INFO] Pages.Base_Page - Waiting for element: ('css selector', '.name')
+2026-05-22 15:24:55 [INFO] Pages.Base_Page - Element visible: ('css selector', '.name')
+2026-05-22 15:24:55 [INFO] Pages.Base_Page - Waiting for element clickable: ('xpath', "//a[text()='Add to cart']")
+2026-05-22 15:24:55 [WARNING] Pages.Base_Page - Hard wait: 2 seconds (avoid in production code)
+2026-05-22 15:24:57 [INFO] Pages.Base_Page - Accepting alert
+2026-05-22 15:24:57 [INFO] Pages.Base_Page - Waiting for alert
+2026-05-22 15:24:57 [INFO] Pages.Base_Page - Alert accepted. Text was: 'Product added'
+2026-05-22 15:24:57 [INFO] Pages.Product_Page - Cart alert: Product added
+2026-05-22 15:24:58 [WARNING] Pages.Base_Page - Hard wait: 2 seconds (avoid in production code)
+2026-05-22 15:25:00 [INFO] Pages.Cart_page - Clicking Place Order button
+2026-05-22 15:25:00 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//button[text()='Place Order']")
+2026-05-22 15:25:00 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//button[text()='Place Order']")
+2026-05-22 15:25:00 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 15:25:01 [INFO] Pages.Checkout_page - Starting complete purchase flow
+2026-05-22 15:25:01 [INFO] Pages.Checkout_page - Opening checkout modal
+2026-05-22 15:25:01 [INFO] Pages.Base_Page - Waiting for element: ('id', 'orderModal')
+2026-05-22 15:25:01 [INFO] Pages.Base_Page - Element visible: ('id', 'orderModal')
+2026-05-22 15:25:01 [INFO] Pages.Checkout_page - Filling checkout form
+2026-05-22 15:25:01 [INFO] Pages.Checkout_page - Entering name: John Doe
+2026-05-22 15:25:01 [INFO] Pages.Base_Page - Entering text 'John Doe' into: ('id', 'name')
+2026-05-22 15:25:01 [INFO] Pages.Base_Page - Text entered successfully: ('id', 'name')
+2026-05-22 15:25:01 [INFO] Pages.Checkout_page - Entering country: USA
+2026-05-22 15:25:01 [INFO] Pages.Base_Page - Entering text 'USA' into: ('id', 'country')
+2026-05-22 15:25:01 [INFO] Pages.Base_Page - Text entered successfully: ('id', 'country')
+2026-05-22 15:25:01 [INFO] Pages.Checkout_page - Entering city: New York
+2026-05-22 15:25:01 [INFO] Pages.Base_Page - Entering text 'New York' into: ('id', 'city')
+2026-05-22 15:25:02 [INFO] Pages.Base_Page - Text entered successfully: ('id', 'city')
+2026-05-22 15:25:02 [INFO] Pages.Checkout_page - Entering credit card details
+2026-05-22 15:25:02 [INFO] Pages.Base_Page - Entering text '4111111111111111' into: ('id', 'card')
+2026-05-22 15:25:02 [INFO] Pages.Base_Page - Text entered successfully: ('id', 'card')
+2026-05-22 15:25:02 [INFO] Pages.Checkout_page - Entering month: 12
+2026-05-22 15:25:02 [INFO] Pages.Base_Page - Entering text '12' into: ('id', 'month')
+2026-05-22 15:25:02 [INFO] Pages.Base_Page - Text entered successfully: ('id', 'month')
+2026-05-22 15:25:02 [INFO] Pages.Checkout_page - Entering year: 2027
+2026-05-22 15:25:02 [INFO] Pages.Base_Page - Entering text '2027' into: ('id', 'year')
+2026-05-22 15:25:02 [INFO] Pages.Base_Page - Text entered successfully: ('id', 'year')
+2026-05-22 15:25:02 [INFO] Pages.Checkout_page - Clicking Purchase button
+2026-05-22 15:25:02 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//button[text()='Purchase']")
+2026-05-22 15:25:02 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//button[text()='Purchase']")
+2026-05-22 15:25:02 [INFO] Pages.Checkout_page - Purchase completed successfully
+2026-05-22 15:25:02 [INFO] Pages.Base_Page - Element is visible: ('css selector', '.sweet-alert h2')
+2026-05-22 15:25:02 [INFO] Pages.Checkout_page - Getting confirmation title
+2026-05-22 15:25:02 [INFO] Pages.Base_Page - Getting text from: ('css selector', '.sweet-alert h2')
+2026-05-22 15:25:02 [INFO] Pages.Base_Page - Text found: 'Thank you for your purchase!'
+2026-05-22 15:25:02 [INFO] Pages.Checkout_page - Clicking confirmation OK
+2026-05-22 15:25:02 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//button[text()='OK']")
+2026-05-22 15:25:02 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//button[text()='OK']")
+2026-05-22 15:25:02 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 15:25:03 [INFO] test_checkout - TC010: PASSED - Order placed successfully
+2026-05-22 15:25:04 [INFO] conftest - Closing browser

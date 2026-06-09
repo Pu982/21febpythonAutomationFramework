@@ -1,0 +1,16 @@
+2026-05-22 21:56:15 [INFO] conftest - Creating browser: edge (headless=False)
+2026-05-22 21:56:15 [INFO] WDM - ====== WebDriver manager ======
+2026-05-22 21:56:16 [INFO] WDM - Driver [C:\Users\PUJA KADAM\.wdm\drivers\edgedriver\win64\148.0.3967.83\msedgedriver.exe] found in cache by browser version
+2026-05-22 21:56:16 [INFO] conftest - Browser created: edge
+2026-05-22 21:56:16 [INFO] Utilities.Config_reader - Config loaded for environment: qa
+2026-05-22 21:56:18 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-22 21:56:18 [INFO] test_e2e - TC019: Parallel Execution Test
+2026-05-22 21:56:18 [INFO] Pages.Base_Page - Element is visible: ('id', 'carouselExampleIndicators')
+2026-05-22 21:56:18 [INFO] Pages.Home_Page - Selecting Laptops category
+2026-05-22 21:56:18 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//a[text()='Laptops']")
+2026-05-22 21:56:18 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//a[text()='Laptops']")
+2026-05-22 21:56:18 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 21:56:19 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 21:56:20 [INFO] Pages.Home_Page - Product names: ['Sony vaio i5', 'Sony vaio i7', 'MacBook air', 'Dell i7 8gb', '2017 Dell 15.6 Inch', 'MacBook Pro']
+2026-05-22 21:56:20 [INFO] test_e2e - TC019: PASSED - 6 laptop products found
+2026-05-22 21:56:20 [INFO] conftest - Closing browser

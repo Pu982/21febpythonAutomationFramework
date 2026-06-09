@@ -1,0 +1,10 @@
+2026-05-22 16:05:37 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-22 16:05:37 [INFO] WDM - ====== WebDriver manager ======
+2026-05-22 16:05:39 [INFO] WDM - Driver [C:\Users\PUJA KADAM\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 16:05:39 [INFO] conftest - Browser created: chrome
+2026-05-22 16:05:39 [INFO] Utilities.Config_reader - Config loaded for environment: qa
+2026-05-22 16:05:42 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-22 16:05:42 [INFO] test_e2e - TC016: Broken Link Validation Test
+2026-05-22 16:05:48 [INFO] test_e2e - Total links checked: 4, broken: 0
+2026-05-22 16:05:48 [INFO] test_e2e - TC016: PASSED - No broken links found
+2026-05-22 16:05:48 [INFO] conftest - Closing browser

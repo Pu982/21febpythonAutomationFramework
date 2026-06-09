@@ -1,0 +1,46 @@
+[32mINFO    [0m conftest:conftest.py:57 Creating browser: chrome (headless=False)
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\PUJA KADAM\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+[32mINFO    [0m conftest:conftest.py:123 Browser created: chrome
+[32mINFO    [0m Utilities.Config_reader:Config_reader.py:36 Config loaded for environment: qa
+[32mINFO    [0m conftest:conftest.py:150 Navigated to: https://demoblaze.com/
+[32mINFO    [0m test_e2e:test_e2e.py:305 TC020: Full E2E Purchase Flow
+[32mINFO    [0m Pages.Login_Page:Login_Page.py:94 Performing login with user: pavanol
+[32mINFO    [0m Pages.Login_Page:Login_Page.py:57 Opening login modal
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:104 Clicking element: ('id', 'login2')
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:110 Clicked element: ('id', 'login2')
+[33mWARNING [0m Pages.Base_Page:Base_Page.py:226 Hard wait: 1 seconds (avoid in production code)
+[32mINFO    [0m Pages.Login_Page:Login_Page.py:66 Entering username: pavanol
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:117 Entering text 'pavanol' into: ('id', 'loginusername')
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:124 Text entered successfully: ('id', 'loginusername')
+[32mINFO    [0m Pages.Login_Page:Login_Page.py:73 Entering password
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:117 Entering text 'test@123' into: ('id', 'loginpassword')
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:124 Text entered successfully: ('id', 'loginpassword')
+[32mINFO    [0m Pages.Login_Page:Login_Page.py:80 Clicking login button
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:104 Clicking element: ('xpath', "//button[text()='Log in']")
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:110 Clicked element: ('xpath', "//button[text()='Log in']")
+[33mWARNING [0m Pages.Base_Page:Base_Page.py:226 Hard wait: 2 seconds (avoid in production code)
+[32mINFO    [0m Pages.Login_Page:Login_Page.py:141 Checking if user is logged in
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:239 Element is visible: ('id', 'nameofuser')
+[32mINFO    [0m test_e2e:test_e2e.py:319 Step 1: Login - DONE
+[32mINFO    [0m Pages.Home_Page:Home_Page.py:82 Selecting Phones category
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:104 Clicking element: ('xpath', "//a[text()='Phones']")
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:110 Clicked element: ('xpath', "//a[text()='Phones']")
+[33mWARNING [0m Pages.Base_Page:Base_Page.py:226 Hard wait: 1 seconds (avoid in production code)
+[33mWARNING [0m Pages.Base_Page:Base_Page.py:226 Hard wait: 1 seconds (avoid in production code)
+[32mINFO    [0m test_e2e:test_e2e.py:327 Step 2: Browse products - DONE
+[32mINFO    [0m Pages.Home_Page:Home_Page.py:139 Selecting product: Samsung galaxy s6
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:104 Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:110 Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+[33mWARNING [0m Pages.Base_Page:Base_Page.py:226 Hard wait: 1 seconds (avoid in production code)
+[32mINFO    [0m test_e2e:test_e2e.py:337 Step 3: Selected product 'Samsung galaxy s6' - DONE
+[32mINFO    [0m Pages.Product_Page:Product_Page.py:83 Adding product to cart
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:176 Waiting for element: ('css selector', '.name')
+[1m[31mERROR   [0m Pages.Base_Page:Base_Page.py:184 Element not found within 10s: ('css selector', '.name')
+[33mWARNING [0m Pages.Product_Page:Product_Page.py:89 Product title not detected before clicking Add to cart
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:201 Waiting for element clickable: ('xpath', "//a[text()='Add to cart']")
+[33mWARNING [0m Pages.Product_Page:Product_Page.py:96 Clickable wait failed; attempting visibility wait then JS click
+[32mINFO    [0m Pages.Base_Page:Base_Page.py:176 Waiting for element: ('xpath', "//a[text()='Add to cart']")
+[1m[31mERROR   [0m Pages.Base_Page:Base_Page.py:184 Element not found within 8s: ('xpath', "//a[text()='Add to cart']")
+[1m[31mERROR   [0m Pages.Product_Page:Product_Page.py:101 Failed to click 'Add to cart' using all strategies
+[32mINFO    [0m conftest:conftest.py:154 Closing browser

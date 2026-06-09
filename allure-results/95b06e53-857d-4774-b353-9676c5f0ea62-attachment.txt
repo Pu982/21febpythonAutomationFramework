@@ -1,0 +1,106 @@
+2026-05-22 21:56:22 [INFO] conftest - Creating browser: edge (headless=False)
+2026-05-22 21:56:22 [INFO] WDM - ====== WebDriver manager ======
+2026-05-22 21:56:23 [INFO] WDM - Driver [C:\Users\PUJA KADAM\.wdm\drivers\edgedriver\win64\148.0.3967.83\msedgedriver.exe] found in cache by browser version
+2026-05-22 21:56:24 [INFO] conftest - Browser created: edge
+2026-05-22 21:56:24 [INFO] Utilities.Config_reader - Config loaded for environment: qa
+2026-05-22 21:56:25 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-22 21:56:25 [INFO] test_e2e - TC020: Full E2E Purchase Flow
+2026-05-22 21:56:25 [INFO] Pages.Login_Page - Performing login with user: pavanol
+2026-05-22 21:56:25 [INFO] Pages.Login_Page - Opening login modal
+2026-05-22 21:56:25 [INFO] Pages.Base_Page - Clicking element: ('id', 'login2')
+2026-05-22 21:56:25 [INFO] Pages.Base_Page - Clicked element: ('id', 'login2')
+2026-05-22 21:56:25 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 21:56:26 [INFO] Pages.Login_Page - Entering username: pavanol
+2026-05-22 21:56:26 [INFO] Pages.Base_Page - Entering text 'pavanol' into: ('id', 'loginusername')
+2026-05-22 21:56:26 [INFO] Pages.Base_Page - Text entered successfully: ('id', 'loginusername')
+2026-05-22 21:56:26 [INFO] Pages.Login_Page - Entering password
+2026-05-22 21:56:26 [INFO] Pages.Base_Page - Entering text 'test@123' into: ('id', 'loginpassword')
+2026-05-22 21:56:26 [INFO] Pages.Base_Page - Text entered successfully: ('id', 'loginpassword')
+2026-05-22 21:56:26 [INFO] Pages.Login_Page - Clicking login button
+2026-05-22 21:56:26 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//button[text()='Log in']")
+2026-05-22 21:56:26 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//button[text()='Log in']")
+2026-05-22 21:56:26 [WARNING] Pages.Base_Page - Hard wait: 2 seconds (avoid in production code)
+2026-05-22 21:56:28 [INFO] Pages.Login_Page - Checking if user is logged in
+2026-05-22 21:56:28 [INFO] Pages.Base_Page - Element is visible: ('id', 'nameofuser')
+2026-05-22 21:56:28 [INFO] test_e2e - Step 1: Login - DONE
+2026-05-22 21:56:28 [INFO] Pages.Home_Page - Selecting Phones category
+2026-05-22 21:56:28 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//a[text()='Phones']")
+2026-05-22 21:56:29 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//a[text()='Phones']")
+2026-05-22 21:56:29 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 21:56:30 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 21:56:31 [INFO] test_e2e - Step 2: Browse products - DONE
+2026-05-22 21:56:31 [INFO] Pages.Home_Page - Selecting product: Samsung galaxy s6
+2026-05-22 21:56:31 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-22 21:56:31 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+2026-05-22 21:56:31 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 21:56:32 [INFO] test_e2e - Step 3: Selected product 'Samsung galaxy s6' - DONE
+2026-05-22 21:56:32 [INFO] Pages.Product_Page - Adding product to cart
+2026-05-22 21:56:32 [INFO] Pages.Base_Page - Waiting for element: ('css selector', '.name')
+2026-05-22 21:56:33 [INFO] Pages.Base_Page - Element visible: ('css selector', '.name')
+2026-05-22 21:56:33 [INFO] Pages.Base_Page - Waiting for element clickable: ('xpath', "//a[text()='Add to cart']")
+2026-05-22 21:56:33 [WARNING] Pages.Base_Page - Hard wait: 2 seconds (avoid in production code)
+2026-05-22 21:56:35 [INFO] Pages.Base_Page - Accepting alert
+2026-05-22 21:56:35 [INFO] Pages.Base_Page - Waiting for alert
+2026-05-22 21:56:35 [INFO] Pages.Base_Page - Alert accepted. Text was: 'Product added.'
+2026-05-22 21:56:35 [INFO] Pages.Product_Page - Cart alert: Product added.
+2026-05-22 21:56:35 [INFO] test_e2e - Step 4: Added to cart - DONE
+2026-05-22 21:56:36 [WARNING] Pages.Base_Page - Hard wait: 2 seconds (avoid in production code)
+2026-05-22 21:56:38 [INFO] test_e2e - Step 5: Navigated to cart - DONE
+2026-05-22 21:56:38 [INFO] Pages.Cart_page - Getting cart items
+2026-05-22 21:56:38 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 21:56:39 [INFO] Pages.Cart_page - Cart items: ['Sony xperia z5', 'HTC One M9', 'Samsung galaxy s6', 'Nokia lumia 1520', 'Samsung galaxy s6', 'Nokia lumia 1520', 'Nokia lumia 1520', 'Samsung galaxy s6', 'Samsung galaxy s6']
+2026-05-22 21:56:39 [INFO] Pages.Cart_page - Product 'Samsung galaxy s6' in cart: True
+2026-05-22 21:56:39 [INFO] Pages.Cart_page - Getting total price
+2026-05-22 21:56:39 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 21:56:40 [INFO] Pages.Base_Page - Getting text from: ('id', 'totalp')
+2026-05-22 21:56:40 [INFO] Pages.Base_Page - Text found: '4920'
+2026-05-22 21:56:40 [INFO] Pages.Cart_page - Total price: 4920
+2026-05-22 21:56:40 [INFO] test_e2e - Step 6: Cart verified - Total: 4920 - DONE
+2026-05-22 21:56:40 [INFO] Pages.Cart_page - Clicking Place Order button
+2026-05-22 21:56:40 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//button[text()='Place Order']")
+2026-05-22 21:56:40 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//button[text()='Place Order']")
+2026-05-22 21:56:40 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 21:56:41 [INFO] test_e2e - Step 7: Place order clicked - DONE
+2026-05-22 21:56:41 [INFO] Pages.Checkout_page - Starting complete purchase flow
+2026-05-22 21:56:41 [INFO] Pages.Checkout_page - Opening checkout modal
+2026-05-22 21:56:41 [INFO] Pages.Base_Page - Waiting for element: ('id', 'orderModal')
+2026-05-22 21:56:41 [INFO] Pages.Base_Page - Element visible: ('id', 'orderModal')
+2026-05-22 21:56:41 [INFO] Pages.Checkout_page - Filling checkout form
+2026-05-22 21:56:41 [INFO] Pages.Checkout_page - Entering name: John Doe
+2026-05-22 21:56:41 [INFO] Pages.Base_Page - Entering text 'John Doe' into: ('id', 'name')
+2026-05-22 21:56:41 [INFO] Pages.Base_Page - Text entered successfully: ('id', 'name')
+2026-05-22 21:56:41 [INFO] Pages.Checkout_page - Entering country: USA
+2026-05-22 21:56:41 [INFO] Pages.Base_Page - Entering text 'USA' into: ('id', 'country')
+2026-05-22 21:56:41 [INFO] Pages.Base_Page - Text entered successfully: ('id', 'country')
+2026-05-22 21:56:41 [INFO] Pages.Checkout_page - Entering city: New York
+2026-05-22 21:56:41 [INFO] Pages.Base_Page - Entering text 'New York' into: ('id', 'city')
+2026-05-22 21:56:41 [INFO] Pages.Base_Page - Text entered successfully: ('id', 'city')
+2026-05-22 21:56:41 [INFO] Pages.Checkout_page - Entering credit card details
+2026-05-22 21:56:41 [INFO] Pages.Base_Page - Entering text '4111111111111111' into: ('id', 'card')
+2026-05-22 21:56:41 [INFO] Pages.Base_Page - Text entered successfully: ('id', 'card')
+2026-05-22 21:56:41 [INFO] Pages.Checkout_page - Entering month: 12
+2026-05-22 21:56:41 [INFO] Pages.Base_Page - Entering text '12' into: ('id', 'month')
+2026-05-22 21:56:42 [INFO] Pages.Base_Page - Text entered successfully: ('id', 'month')
+2026-05-22 21:56:42 [INFO] Pages.Checkout_page - Entering year: 2027
+2026-05-22 21:56:42 [INFO] Pages.Base_Page - Entering text '2027' into: ('id', 'year')
+2026-05-22 21:56:42 [INFO] Pages.Base_Page - Text entered successfully: ('id', 'year')
+2026-05-22 21:56:42 [INFO] Pages.Checkout_page - Clicking Purchase button
+2026-05-22 21:56:42 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//button[text()='Purchase']")
+2026-05-22 21:56:42 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//button[text()='Purchase']")
+2026-05-22 21:56:42 [INFO] Pages.Checkout_page - Purchase completed successfully
+2026-05-22 21:56:42 [INFO] test_e2e - Step 8-9: Checkout completed - DONE
+2026-05-22 21:56:42 [INFO] Pages.Base_Page - Element is visible: ('css selector', '.sweet-alert h2')
+2026-05-22 21:56:42 [INFO] Pages.Checkout_page - Getting confirmation title
+2026-05-22 21:56:42 [INFO] Pages.Base_Page - Getting text from: ('css selector', '.sweet-alert h2')
+2026-05-22 21:56:42 [INFO] Pages.Base_Page - Text found: 'Thank you for your purchase!'
+2026-05-22 21:56:42 [INFO] Pages.Checkout_page - Clicking confirmation OK
+2026-05-22 21:56:42 [INFO] Pages.Base_Page - Clicking element: ('xpath', "//button[text()='OK']")
+2026-05-22 21:56:42 [INFO] Pages.Base_Page - Clicked element: ('xpath', "//button[text()='OK']")
+2026-05-22 21:56:42 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 21:56:43 [INFO] test_e2e - Step 10: Order confirmed - DONE
+2026-05-22 21:56:43 [WARNING] Pages.Base_Page - Hard wait: 1 seconds (avoid in production code)
+2026-05-22 21:56:44 [INFO] Pages.Login_Page - Performing logout
+2026-05-22 21:56:44 [INFO] Pages.Base_Page - Clicking element: ('id', 'logout2')
+2026-05-22 21:56:46 [INFO] Utilities.screenshot_utils - Screenshot saved: D:\pythonAutomation\pythonAutomationtest\21feb_python_Framework\screenshots\test_full_e2e_purchase_20260522_215646.png
+2026-05-22 21:56:46 [ERROR] conftest - TEST FAILED: test_full_e2e_purchase - Screenshot: D:\pythonAutomation\pythonAutomationtest\21feb_python_Framework\screenshots\test_full_e2e_purchase_20260522_215646.png
+2026-05-22 21:56:46 [INFO] conftest - Closing browser

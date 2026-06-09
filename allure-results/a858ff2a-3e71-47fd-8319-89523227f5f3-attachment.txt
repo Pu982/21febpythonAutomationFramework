@@ -1,0 +1,19 @@
+2026-05-22 15:32:22 [INFO] conftest - Creating browser: chrome (headless=False)
+2026-05-22 15:32:22 [INFO] WDM - xdist worker is: gw3
+2026-05-22 15:32:22 [INFO] WDM - ====== WebDriver manager ======
+2026-05-22 15:32:25 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-22 15:32:26 [INFO] WDM - There is no [win64] chromedriver "148.0.7778.178" for browser google-chrome "148.0.7778" in cache
+2026-05-22 15:32:28 [INFO] WDM - There is no [win64] chromedriver "148.0.7778.178" for browser google-chrome "148.0.7778" in cache
+2026-05-22 15:32:28 [INFO] WDM - Get LATEST chromedriver version for google-chrome
+2026-05-22 15:32:31 [INFO] WDM - WebDriver version 148.0.7778.178 selected
+2026-05-22 15:32:31 [INFO] WDM - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-22 15:32:31 [INFO] WDM - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-22 15:32:33 [INFO] WDM - Driver downloading response is 200
+2026-05-22 15:32:36 [INFO] WDM - Driver has been saved in cache [C:\Users\PUJA KADAM\.wdm\gw3\drivers\chromedriver\win64\148.0.7778.178]
+2026-05-22 15:32:38 [INFO] conftest - Browser created: chrome
+2026-05-22 15:32:38 [INFO] Utilities.Config_reader - Config loaded for environment: qa
+2026-05-22 15:32:42 [INFO] conftest - Navigated to: https://demoblaze.com/
+2026-05-22 15:32:42 [INFO] test_e2e - TC016: Broken Link Validation Test
+2026-05-22 15:32:51 [INFO] test_e2e - Total links checked: 4, broken: 0
+2026-05-22 15:32:51 [INFO] test_e2e - TC016: PASSED - No broken links found
+2026-05-22 15:32:51 [INFO] conftest - Closing browser
